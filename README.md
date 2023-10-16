@@ -62,7 +62,7 @@ Instance ID: i-9876543210zyxwvut , Instance State: stopped , Instance Type: t3.s
 1.) Enter 'EC2' to Get instance details,  
 2.) Enter 'start' to start the instance,  
 3.) Enter 'stop' to stop the instance,  
-4.) Enter 'quit' to exit: start
+4.) Enter 'quit' to exit:  
 `start`  
 Enter EC2 Instance ID: i-0123456789abcdefg  
 Starting instance i-0123456789abcdefg
@@ -72,7 +72,7 @@ Starting instance i-0123456789abcdefg
 1.) Enter 'EC2' to Get instance details,  
 2.) Enter 'start' to start the instance,  
 3.) Enter 'stop' to stop the instance,  
-4.) Enter 'quit' to exit: stop
+4.) Enter 'quit' to exit:  
 `stop`  
 Enter EC2 Instance ID: i-9876543210zyxwvut  
 Stopping instance i-9876543210zyxwvut
@@ -81,7 +81,7 @@ Stopping instance i-9876543210zyxwvut
 1.) Enter 'EC2' to Get instance details,  
 2.) Enter 'start' to start the instance,  
 3.) Enter 'stop' to stop the instance,  
-4.) Enter 'quit' to exit: quit
+4.) Enter 'quit' to exit:  
 `quit`
 
 
