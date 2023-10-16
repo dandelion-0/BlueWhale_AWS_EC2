@@ -91,8 +91,8 @@ This project is licensed under the Apache License - see the [LICENSE](LICENSE) f
 
 ## Acknowledgement
 
-BlueWhale_AWS_EC2 Application was developed using the following libraries:
-- [boto3] (https://boto3.amazonaws.com/v1/documentation/api/latest/index.html)
+BlueWhale_AWS_EC2 Application was developed using the following libraries & AWS SDK for Python :
+- [boto3] (https://aws.amazon.com/sdk-for-python/)
 
 ## Contact
 
