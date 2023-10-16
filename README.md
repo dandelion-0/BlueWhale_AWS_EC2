@@ -57,7 +57,7 @@ Here is an example of how to use this script:
 
 `EC2`  
 Instance ID: i-0123456789abcdefg , Instance State: running , Instance Type: t2.micro  
-Instance ID: i-9876543210zyxwvut , Instance State: stopped , Instance Type: t3.small
+Instance ID: i-9876543210zyxwvut , Instance State: stopped , Instance Type: t3.small  
 
 
 1.) Enter 'EC2' to Get instance details,  
