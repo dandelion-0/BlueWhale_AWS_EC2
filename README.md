@@ -55,7 +55,7 @@ Here is an example of how to use this script:
 3.) Enter 'stop' to stop the instance,  
 4.) Enter 'quit' to exit:  
 
-'EC2'
+`EC2`  
 Instance ID: i-0123456789abcdefg , Instance State: running , Instance Type: t2.micro
 Instance ID: i-9876543210zyxwvut , Instance State: stopped , Instance Type: t3.small
 
@@ -64,7 +64,7 @@ Instance ID: i-9876543210zyxwvut , Instance State: stopped , Instance Type: t3.s
 3.) Enter 'stop' to stop the instance,  
 4.) Enter 'quit' to exit: start
 
-'start'
+`start`  
 Enter EC2 Instance ID: i-0123456789abcdefg  
 Starting instance i-0123456789abcdefg
 {'StartingInstances': [{'CurrentState': {'Code': 0, 'Name': 'pending'}, 'InstanceId': 'i-0123456789abcdefg', 'PreviousState': {'Code': 80, 'Name': 'stopped'}}]}
@@ -74,7 +74,7 @@ Starting instance i-0123456789abcdefg
 3.) Enter 'stop' to stop the instance,  
 4.) Enter 'quit' to exit: stop
 
-'stop'
+`stop`  
 Enter EC2 Instance ID: i-9876543210zyxwvut  
 Stopping instance i-9876543210zyxwvut
 {'StoppingInstances': [{'CurrentState': {'Code': 64, 'Name': 'stopping'}, 'InstanceId': 'i-9876543210zyxwvut', 'PreviousState': {'Code': 80, 'Name': 'stopped'}}]}
