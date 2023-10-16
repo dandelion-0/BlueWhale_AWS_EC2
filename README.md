@@ -54,7 +54,6 @@ Here is an example of how to use this script:
 2.) Enter 'start' to start the instance,  
 3.) Enter 'stop' to stop the instance,  
 4.) Enter 'quit' to exit:  
-
 `EC2`  
 Instance ID: i-0123456789abcdefg , Instance State: running , Instance Type: t2.micro  
 Instance ID: i-9876543210zyxwvut , Instance State: stopped , Instance Type: t3.small  
@@ -64,7 +63,6 @@ Instance ID: i-9876543210zyxwvut , Instance State: stopped , Instance Type: t3.s
 2.) Enter 'start' to start the instance,  
 3.) Enter 'stop' to stop the instance,  
 4.) Enter 'quit' to exit: start
-
 `start`  
 Enter EC2 Instance ID: i-0123456789abcdefg  
 Starting instance i-0123456789abcdefg
@@ -75,7 +73,6 @@ Starting instance i-0123456789abcdefg
 2.) Enter 'start' to start the instance,  
 3.) Enter 'stop' to stop the instance,  
 4.) Enter 'quit' to exit: stop
-
 `stop`  
 Enter EC2 Instance ID: i-9876543210zyxwvut  
 Stopping instance i-9876543210zyxwvut
@@ -85,8 +82,7 @@ Stopping instance i-9876543210zyxwvut
 2.) Enter 'start' to start the instance,  
 3.) Enter 'stop' to stop the instance,  
 4.) Enter 'quit' to exit: quit
-
-
+`quit`
 
 
 ## License
