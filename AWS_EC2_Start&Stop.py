@@ -54,9 +54,11 @@ def main():
             if choice == 'EC2' or choice == 'ec2' :
                 Get_instance_details()
             elif choice == 'start':
-                start_instance()
+                id = input('Enter EC2 Instance ID')
+                start_instance(id)
             elif choice == 'stop':
-                stop_instance()
+                id = input('Enter EC2 Instance ID')
+                stop_instance(id)
             elif choice == 'quit':
                 break
             else:
