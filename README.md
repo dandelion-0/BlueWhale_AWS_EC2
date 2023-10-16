@@ -59,30 +59,41 @@ Instance ID: i-0123456789abcdefg , Instance State: running , Instance Type: t2.m
 
 Instance ID: i-9876543210zyxwvut , Instance State: stopped , Instance Type: t3.small
 
-1.) Enter 'EC2' to Get instance details,
-2.) Enter 'start' to start the instance,
-3.) Enter 'stop' to stop the instance,
+1.) Enter 'EC2' to Get instance details,\n
+2.) Enter 'start' to start the instance,\n
+3.) Enter 'stop' to stop the instance,\n
 4.) Enter 'quit' to exit: start
 
 Enter EC2 Instance ID: i-0123456789abcdefg
 Starting instance i-0123456789abcdefg
 {'StartingInstances': [{'CurrentState': {'Code': 0, 'Name': 'pending'}, 'InstanceId': 'i-0123456789abcdefg', 'PreviousState': {'Code': 80, 'Name': 'stopped'}}]}
 
-1.) Enter 'EC2' to Get instance details,
-2.) Enter 'start' to start the instance,
-3.) Enter 'stop' to stop the instance,
+1.) Enter 'EC2' to Get instance details,\n
+2.) Enter 'start' to start the instance,\n
+3.) Enter 'stop' to stop the instance,\n
 4.) Enter 'quit' to exit: stop
 
 Enter EC2 Instance ID: i-9876543210zyxwvut
 Stopping instance i-9876543210zyxwvut
 {'StoppingInstances': [{'CurrentState': {'Code': 64, 'Name': 'stopping'}, 'InstanceId': 'i-9876543210zyxwvut', 'PreviousState': {'Code': 80, 'Name': 'stopped'}}]}
 
-1.) Enter 'EC2' to Get instance details,
-2.) Enter 'start' to start the instance,
-3.) Enter 'stop' to stop the instance,
+1.) Enter 'EC2' to Get instance details,\n
+2.) Enter 'start' to start the instance,\n
+3.) Enter 'stop' to stop the instance,\n
 4.) Enter 'quit' to exit: quit
 
 
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+## Acknowledgement
+
+BlueWhale_AWS_EC2 Application was developed using the following libraries:
+- [boto3] (https://boto3.amazonaws.com/v1/documentation/api/latest/index.html)
+
+## Contact
+
+For any questions or inquiries, please contact the project maintainer at [dandelion00@tutanota.com]
+
+Feel free to visit our project page on GitHub: [BlueWhale_AWS_EC2](https://github.com/dandelion-0/BlueWhale_AWS_EC2)
