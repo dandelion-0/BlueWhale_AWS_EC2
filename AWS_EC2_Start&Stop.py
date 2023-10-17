@@ -33,14 +33,12 @@ def Get_instance_details():
 
 # Start the EC2 instance
 def start_instance(instance_id):
-    instance_id = input('PLEASE ENTER YOUR INSTANCE ID')
     response = ec2_client.start_instances(InstanceIds=[instance_id])
     print(f'Starting instance {instance_id}')
     print(response)
 
 # Stop the EC2 instance
 def stop_instance(instance_id):
-    instance_id = input('PLEASE ENTER YOUR INSTANCE ID')
     response = ec2_client.stop_instances(InstanceIds=[instance_id])
     print(f'Stopping instance {instance_id}')
     print(response)
@@ -54,10 +52,10 @@ def main():
             if choice == 'EC2' or choice == 'ec2' :
                 Get_instance_details()
             elif choice == 'start':
-                id = input('Enter EC2 Instance ID')
+                id = input('Please Enter EC2 Instance ID')
                 start_instance(id)
             elif choice == 'stop':
-                id = input('Enter EC2 Instance ID')
+                id = input('Please Enter EC2 Instance ID')
                 stop_instance(id)
             elif choice == 'quit':
                 break
